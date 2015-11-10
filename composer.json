@@ -1,5 +1,5 @@
 {
-    "name": "pili-engineering/pili-sdk-php",
+    "name": "wallstreetcn/pili-sdk-php",
     "type": "library",
     "description": "Pili Streaming Cloud server-side library for PHP.",
     "keywords": ["web-service", "rtmp", "hls", "hdl", "hds", "dash", "streaming", "pili", "qiniu", "cloud"],
