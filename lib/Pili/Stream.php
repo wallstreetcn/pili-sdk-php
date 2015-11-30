@@ -172,10 +172,10 @@ class Stream
     public function httpFlvLiveUrls()
     {
         $urls = array();
-        $urls['ORIGIN'] = sprintf("http://%s/%s/%s.flv", $this->hosts["live"]["http"], $this->hub, $this->title);
+        $urls['ORIGIN'] = sprintf("http://%s/%s/%s.flv", $this->hosts["live"]["hdl"], $this->hub, $this->title);
         if (isset($this->profiles) && !empty($this->profiles)) {
             foreach ($this->profiles as $profile) {
-                $urls[$profile] = sprintf("http://%s/%s/%s@%s.flv", $this->hosts["live"]["http"], $this->hub, $this->title, $profile);
+                $urls[$profile] = sprintf("http://%s/%s/%s@%s.flv", $this->hosts["live"]["hdl"], $this->hub, $this->title, $profile);
             }
         }
         return $urls;
